@@ -1,0 +1,1 @@
+Um projeto pequeno para entender um pouco sobre node para um projeto da faculdade, basicamente o que ele faz é subir informações usando um servidor node com fastify para um banco de dados, neste caso o Neon 
