@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Video nest",
+    "description": "Primeiro video cadastrado",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/eb2df3a2-a6d3-4ab0-a265-56bc0ab0bca8
+Content-Type: application/json
+
+{
+    "title": "Video to delete",
+    "description": "Primeiro video cadastrado",
+    "duration": 200
+}
+
+###
+
+DELETE http://localhost:3333/videos/eb2df3a2-a6d3-4ab0-a265-56bc0ab0bca8
